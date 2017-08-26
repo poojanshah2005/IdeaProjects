@@ -14,6 +14,6 @@ fun main(args: Array<String>){
 class Header(var Name: String){
 }
 
-operator infix fun Header.plus(other:Header):Header{
+operator infix fun Header.plus (other:Header):Header{
      return Header(this.Name + other.Name)
 }
